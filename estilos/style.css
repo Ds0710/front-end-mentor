@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    min-width: 375;
+    max-width: 1236px;
+}
+
+main {
+    background-color: gray;
+   padding: 70px;
+   width: 1000px;
+   margin: auto;
+   border-radius: 20px;
+}
+
+#container-a {
+    background-color: hsl(31, 77%, 52%);
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+    margin-right: -4px;
+    padding: 40px;
+    text-align: justify;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+#container-b {
+    background-color: hsl(184, 100%, 22%);
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+    margin-right: -4px;
+    padding: 40px;
+    text-align: justify;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+#container-b > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: left;
+}
+
+#container-a > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: left;
+}
+
+#container-c > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: left;
+}
+
+#container-c{
+    background-color: hsl(179, 100%, 13%);
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+    margin-right: -4px;
+    padding: 40px;
+    text-align: justify;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navegacao {
+    border: 1px white solid;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 60px;
+    max-width: 130px;
+    padding: 10px;
+    font-weight: normal;
+    background-color: white;
+}
+
+.navegacao:hover {
+    transition: 1s;
+    background-color: transparent;
+}
+
+#cor1 {
+    color: hsl(31, 77%, 52%);
+}
+    
+
+#cor2{
+    color: hsl(184, 100%, 22%);
+}
+
+#cor3{
+    color: hsl(179, 100%, 13%);
+}
+
+#cor1:hover{
+    color: white
+}
+
+#cor2:hover {
+    color: white;
+}
+
+#cor3:hover {
+    color: white;
+}
+
+
+.attribution { 
+    font-size: 15px; text-align: center;
+    background-color: blue;
+    font-weight: bold;
+    padding:15px;
+    margin: 15px -50px -50px -50px;
+    height: 13px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
